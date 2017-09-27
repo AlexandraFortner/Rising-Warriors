@@ -1,4 +1,4 @@
-# Rising Warriors/ライジングウォリアーズ
+# Rising Warriors/ ライジングウォリアーズ
 
 #### Work in progress:
 <hr>
