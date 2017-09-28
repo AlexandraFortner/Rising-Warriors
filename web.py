@@ -7,7 +7,7 @@ game = core.Game()
 
 @app.route('/menu')
 def main_menu():
-    return render_template('index.html')
+    return render_template('main_menu.html')
 
 
 def main():
