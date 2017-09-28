@@ -1,6 +1,15 @@
 from collections import namedtuple
 
 
+class Game():
+    '''Current state of the game.'''
+
+    def set_up(self, Warrior_1, Warrior_2, turn):
+        self.Warrior_1 = Warrior_1
+        self.Warrior_2 = Warrior_2
+        self.turn = turn
+
+
 class Character(namedtuple('Character', 'name type age img_path description')):
     @staticmethod
     def get(i):
@@ -14,7 +23,7 @@ class Character(namedtuple('Character', 'name type age img_path description')):
 _Characters = [
     Character(
         name='Shigeru Matsuo',
-        type='Gunman/Sniper',
+        type='Gunman',
         age=32,
         img_path=
         '/home/basecamp/RisingWarriors/static/pictures/CroppedGunman.png',
