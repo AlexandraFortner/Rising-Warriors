@@ -10,6 +10,11 @@ def main_menu():
     return render_template('main_menu.html')
 
 
+@app.route('/index')
+def index():
+    return render_template('index.html')
+
+
 def main():
     app.run(debug=True)
 

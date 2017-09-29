@@ -28,20 +28,27 @@ _Characters = [
         img_path=
         '/home/basecamp/RisingWarriors/static/pictures/CroppedGunman.png',
         description=
-        ('Shigeru Matsuo lived a quiet, wealthy life, residing in a large, traditional home, beside 鏡の池(Mirror Pond) '
-         ''))
+        ('Shigeru Matsuo lived a quiet, calm life, residing in a large, traditional home, beside a rice farm his parents worked at throughout his childhood '
+        'until his father\'s murder in 1560. An armor-clad Ronin had slit his throat in broad daylight for speaking against him in the fields,'
+        'in front of Shigeru and his mother. Once Shigeru had calmed his mother and gotten over the initial shock, he has taken a similar Bushido '
+        'to his uncle Tohiro, an honorable Samurai. Instead of wakizashi(short swords) and tantos(daggers), '
+        'he would use his Matchlock gun and his quick wit. He\'s trained for four years, becoming an excellent shot before searching '
+        'for his Father\'s murderer. As we find him now, he is still searching and sending money to his mother that '
+        'he earns on the path to avenge his father.'
+         )),
+    Character(
+        name='Yoshio No Kudo',
+        type='Samurai',
+        age=47
+        img_path='/home/basecamp/RisingWarriors/static/pictures/Ninja.png',
+        description=
+        ('As a child, Yoshio 鏡の池(Mirror Pond)
+         )),
+
+    Character(
+        name='Chiasa Watani',
+        type='Sōhei',
+        age=44,
+        img_path=''
+    )
 ]
-# Book(
-# id=1,
-# title='Get Programming with F#',
-# authors=['Isaac Abraham'],
-# price=35.99,
-# img_path='/static/images/get_programming_with_fsharp.png',
-# description=
-# ('Get Programming with F#: A guide for .NET Developers shows you how to upgrade your .NET development skills '
-#  'by adding a touch of functional programming in F#. In just 43 bite-size chunks, you\'ll learn to use F# to '
-#  'tackle the most common .NET programming tasks. You\'ll start with the basics of F# and functional programming, '
-#  'building on your existing skills in the .NET framework. Examples use the familiar Visual Studio environment, '
-#  'so you\'ll be instantly comfortable. Packed with enlightening examples, real-world use cases, and plenty of '
-#  'easy-to-digest code, this easy-to-follow tutorial will make you wonder why you didn\'t pick up F# years ago!'
-#  ))
