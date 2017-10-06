@@ -38,7 +38,7 @@ _Characters = [
          )),
     Character(
         name='Yoshio No Kudo',
-        type='Samurai',
+        type='Sōhei',
         age=47
         img_path='/home/basecamp/RisingWarriors/static/pictures/Ninja.png',
         description=
@@ -47,7 +47,7 @@ _Characters = [
 
     Character(
         name='Chiasa Watani',
-        type='Sōhei',
+        type='Samurai',
         age=44,
         img_path=''
     )
