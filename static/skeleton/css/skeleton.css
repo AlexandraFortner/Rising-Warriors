@@ -286,7 +286,35 @@ p {
     background: rgba(255, 255, 255, 0.5);
     border-radius: 22px;
     border-style: outset;
-    width: 97.5%;
+    width: 94.5%;
+}
+
+.character-pick-box {
+    bottom: -100px;
+    position: fixed;
+    margin-bottom: 20px;
+    padding: 30px 35px;
+    background: rgba(255, 255, 255);
+    border-radius: 22px;
+    border-style: outset;
+    width: 94.5%;
+}
+
+.character-box {
+    bottom: -20px;
+    position: fixed;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 22px;
+    border-style: outset;
+    width: 98.5%;
+}
+
+.character-narrow {
+    /* float: right; */
+    margin-right: -850px;
+    width: 150px;
 }
 
 .small-box {
@@ -670,3 +698,50 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 }
+
+.vertical-line {
+    color: #c303e9;
+    border-left: medium;
+    position: absolute;
+    left: 150px;
+    height: 800px;
+}
+/* 
+FOR SLANTED LINES. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.background-line {
+    width: 100px;
+    height: 180px;
+    padding: 0;
+    margin: 0;
+}
+.line1 {
+    width: 980px;
+    height: 500px;
+    border-bottom: 5px solid black;
+    -webkit-transform: translateY(30px) translateX(-130px) rotate(55deg);
+    position: fixed;
+    /* top: -20px; */
+}
+.line2 {
+    width: 950px;
+    height: 630px;
+    border-bottom: 5px solid black;
+    -webkit-transform: translateY(-30px) translateX(130px) rotate(55deg);
+    position: fixed;
+    top: -83px;
+    left: 23px;
+}
+
+.line3 {
+    width: 180px;
+    height: 150px;
+    border-bottom: 5px solid black;
+    -webkit-transform: translateY(-78px) translateX(22px) rotate(56deg);
+    position: fixed;
+    top: 783px;
+    right: 569px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~SLANTED LINES END */
