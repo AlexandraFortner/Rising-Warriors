@@ -5,14 +5,19 @@ app = Flask(__name__)
 game = core.Game()
 
 
-@app.route('/menu')
+@app.route('/')
 def main_menu():
-    return render_template('main_menu.html')
+    return render_template('/home/basecamp/RisingWarriors/main_menu.html')
 
 
 @app.route('/index')
 def index():
-    return render_template('index.html')
+    return render_template('/home/basecamp/RisingWarriors/index.html')
+
+
+@app.route('/character_menu')
+def character_menu():
+    return render_template('/home/basecamp/RisingWarriors/character_menu.html')
 
 
 def main():
